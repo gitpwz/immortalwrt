@@ -50,12 +50,13 @@ define Device/openstick-w001
   DEVICE_PACKAGES := openstick-tweaks wpad-basic-wolfssl qcom-msm8916-modem-openstick-w001-firmware qcom-msm8916-openstick-w001-wcnss-firmware qcom-msm8916-wcnss-openstick-w001-nv
 endef
 TARGET_DEVICES += openstick-w001
-
+】
 define Device/openstick-ufi003
   $(Device/openstick-ufi001c)
   DEVICE_MODEL := OpenStick UFI003
   DEVICE_DTS_DIR := ../dts
-  DEVICE_PACKAGES := openstick-tweaks wpad-basic-wolfssl qcom-msm8916-modem-openstick-ufi003-firmware qcom-msm8916-openstick-ufi003-wcnss-firmware qcom-msm8916-wcnss-openstick-ufi003-nv
+  #DEVICE_PACKAGES := openstick-tweaks wpad-basic-wolfssl qcom-msm8916-modem-openstick-ufi003-firmware qcom-msm8916-openstick-ufi003-wcnss-firmware qcom-msm8916-wcnss-openstick-ufi003-nv
+  DEVICE_PACKAGES := wpad-basic-wolfssl qcom-msm8916-wcnss-openstick-ufi003-nv
 endef
 TARGET_DEVICES += openstick-ufi003
 
