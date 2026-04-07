@@ -7,6 +7,6 @@ src-git video https://github.com/openwrt/video.git
 #src-git targets https://github.com/openwrt/targets.git
 #src-git oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
-src-git-full openstick https://github.com/xuxin1955/openstick-feeds.git
+src-git-full openstick https://github.com/gitpwz/openstick-feeds_0408.git
 
 
